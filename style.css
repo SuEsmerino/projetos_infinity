@@ -1,50 +1,55 @@
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(6, 6, 7); /* Alterar a cor para preto */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center; /* Centralizar o texto na barra */
-  }
-.nav-wrapper img{
-    margin-top: 50px;
-    height: 60px;
-    padding-left: 30px; /* Espaçamento à esquerda para a imagem */
-    padding-top: auto; 
-  }
-.card{
-    width: 450px;
-    height: 700px;
-}
-#products-list{
-    display: flex;
-    flex-wrap: wrap;   /*para quebrar a linha quando estiver lateralizado */
-    gap: 10px; /*para dar espaçamento entre os elementos */
-}
-.card-image img{
-    max-width: 280px;
-    max-height: 300px;
-}
-.card-image {
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card-content{
-    height: 190px;
-}
-  .titulo-site {
-    font-size: 30px;
-    color: white;
-    text-align: center; /* Centraliza o texto horizontalmente */
-  }
-  .rodape {
-    background-color: #080303; /* Cor de fundo do rodapé */
-    padding: 20px; /* Espaçamento interno do rodapé */
-    text-align: center; /* Centralizar o conteúdo do rodapé */
-    color: #f3ecec; /* Cor do texto no rodapé */
-    font-size: 20px; /* Tamanho da fonte do texto do rodapé */
-}
 
+    .container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+  
+    .dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+  
+    body {
+        background-color: #000000;
+        margin: 0;
+    }
+  
+    h1 {
+        margin: 30px;
+        font-family: "Lobster", cursive;
+        text-shadow: 5px 0 #232931;
+        font-size: 4.5rem;
+        color: #4ecca3;
+        text-align: center;
+    }
+  
+    p {
+        font-size: 2rem;
+        color: #4ecca3;
+        font-family: "Indie Flower", cursive;
+    }
+  
+    img {
+        width: 100%;
+    }
+  
+    .bottom {
+        padding-top: 30px;
+    }
+  
+    .butn {
+        background: #4ecca3;
+        font-family: "Indie Flower", cursive;
+        border-radius: 7px;
+        color: #ffff;
+        font-size: 30px;
+        padding: 16px 25px 16px 25px;
+        text-decoration: none;
+    }
+  
+    .butn:hover {
+        background: #232931;
+        text-decoration: none;
+    }
