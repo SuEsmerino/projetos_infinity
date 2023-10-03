@@ -1,0 +1,50 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(6, 6, 7); /* Alterar a cor para preto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; /* Centralizar o texto na barra */
+  }
+.nav-wrapper img{
+    margin-top: 50px;
+    height: 60px;
+    padding-left: 30px; /* Espaçamento à esquerda para a imagem */
+    padding-top: auto; 
+  }
+.card{
+    width: 450px;
+    height: 700px;
+}
+#products-list{
+    display: flex;
+    flex-wrap: wrap;   /*para quebrar a linha quando estiver lateralizado */
+    gap: 10px; /*para dar espaçamento entre os elementos */
+}
+.card-image img{
+    max-width: 280px;
+    max-height: 300px;
+}
+.card-image {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content{
+    height: 190px;
+}
+  .titulo-site {
+    font-size: 30px;
+    color: white;
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  .rodape {
+    background-color: #080303; /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Centralizar o conteúdo do rodapé */
+    color: #f3ecec; /* Cor do texto no rodapé */
+    font-size: 20px; /* Tamanho da fonte do texto do rodapé */
+}
+
